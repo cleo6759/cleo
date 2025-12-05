@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFF2EF; 
+}
+
+.gambar {
+    width: 30%;
+    height: 10px;
+    object-fit: cover;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#1A2A4F; 
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: #FFF2EF;
+    font-weight: 600;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background-color: #850E35; 
+    color: #1A2A4F;
+}
+
+.subnav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #FFDBB6;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+    border-bottom: 3px solid #1A2A4F;
+}
+
+.subnav li a {
+    text-decoration: none;
+    color: #1A2A4F;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.subnav li a:hover,
+.subnav li a.active {
+    background: #1A2A4F;
+    color: #FFF2EF;
+}
+
+.sdgs, .bilateral {
+    background: #FFDBB6;
+    padding: 20px;
+    margin: 20px 30px;
+    border-radius: 15px;
+    border: 3px solid #1A2A4F;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.titlelist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.list {
+    background: #FFDBB6;
+    padding: 20px;
+    margin: 10px 10px; 
+    border-radius: 15px;
+    border: 3px solid #1A2A4F;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    width: 500px;
+}
+
+.gambar {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#referensi {
+    background: #FFDBB6;
+    padding: 20px;
+    margin: 20px 30px;
+    border-radius: 15px;
+    border: 3px solid #1A2A4F;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+#referensi ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#referensi li {
+    margin: 12px 0;
+}
+
+#referensi li a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    background: #FFDBB6;
+    border: 2px solid #1A2A4F;
+    border-radius: 10px;
+    color: #1A2A4F;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#referensi li a:hover,
+#referensi li a:active {
+    background: #1A2A4F;
+    color: #FFF2EF;
+    transform: scale(1.03);
+}
+
+.list:hover, .sdgs:hover, .bilateral:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #850E35;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .list { width: 100%; }
+    .gambar { width: 100%; height: auto; }
+}
+
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background: url('anj') no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.banner h2 {
+    color: #FFF2EF;
+    font-size: 32px;
+    text-align: center;
+    background-color: rgba(26, 42, 79, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background: url('anj') no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.banner h2 {
+    color: #FFF2EF;
+    font-size: 32px;
+    text-align: center;
+    background-color: rgba(26, 42, 79, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar a[href*="tentangkami.html"] {
+    background-color: #850E35;
+    color: #FFF2EF; 
+}
